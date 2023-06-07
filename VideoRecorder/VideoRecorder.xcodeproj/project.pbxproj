@@ -12,6 +12,7 @@
 		983C04902A2F2DFB000E4702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983C048F2A2F2DFB000E4702 /* ViewController.swift */; };
 		983C04952A2F2DFC000E4702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983C04942A2F2DFC000E4702 /* Assets.xcassets */; };
 		983C04982A2F2DFC000E4702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983C04962A2F2DFC000E4702 /* LaunchScreen.storyboard */; };
+		98F730C02A302A3B007930D3 /* NavigationBarStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F730BF2A302A3B007930D3 /* NavigationBarStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		983C04942A2F2DFC000E4702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983C04972A2F2DFC000E4702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		983C04992A2F2DFC000E4702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F730BF2A302A3B007930D3 /* NavigationBarStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				983C048B2A2F2DFB000E4702 /* AppDelegate.swift */,
 				983C048D2A2F2DFB000E4702 /* SceneDelegate.swift */,
 				983C048F2A2F2DFB000E4702 /* ViewController.swift */,
+				98F730BF2A302A3B007930D3 /* NavigationBarStackView.swift */,
 				983C04942A2F2DFC000E4702 /* Assets.xcassets */,
 				983C04962A2F2DFC000E4702 /* LaunchScreen.storyboard */,
 				983C04992A2F2DFC000E4702 /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983C04902A2F2DFB000E4702 /* ViewController.swift in Sources */,
+				98F730C02A302A3B007930D3 /* NavigationBarStackView.swift in Sources */,
 				983C048C2A2F2DFB000E4702 /* AppDelegate.swift in Sources */,
 				983C048E2A2F2DFB000E4702 /* SceneDelegate.swift in Sources */,
 			);

@@ -19,13 +19,22 @@ final class ViewController: UIViewController {
             let button = UIBarButtonItem(image: UIImage(systemName: "video.fill.badge.plus"),
                                          style: .done,
                                          target: self,
-                                         action: nil)
+                                         action: #selector(rightBarButtonAction))
             button.tintColor = .systemIndigo
             
             return button
         }()
         
+        let barStackView = NavigationBarStackView()
+        let leftButton: UIBarButtonItem = .init(customView: barStackView)
+        
         navigationItem.rightBarButtonItem = rightButton
+        navigationItem.leftBarButtonItem = leftButton
+    }
+    
+    @objc
+    private func rightBarButtonAction() {
+        print("right bar action")
     }
 }
 
